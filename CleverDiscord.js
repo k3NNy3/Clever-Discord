@@ -1,5 +1,5 @@
 //kennys discord-steam bot
-//written for use with node.js, discord.js & steam-store
+//written for use with node.js, discord.js & cleverbot-node
 
 //what channel to listen to, comment out if all channels
 var channelid = ''
