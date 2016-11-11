@@ -3,7 +3,7 @@
 
 //what channel to listen to, comment out if all channels
 var channelid = ''
-//what user to listen to on important commands, required to prevent abuse
+//what user to listen to on important commands, required
 var adminid = ''
 //Bot token
 const token = '';
@@ -58,7 +58,7 @@ bot.on("message", msg => {
   //provids donation infromation
   if (msg.content.startsWith(prefix + "donate")) {
     if (msg.channel.id === channelid) {
-		msg.channel.sendMessage("Doante to this project\n```BTC : 1J6mpRC92aYxV9fYTJPcb5TSKqvyZ6tMem\nLTC : LWVP6tooXQ5qZdiNbDxALEHXoDrpdXcF1c```");
+		msg.channel.sendMessage("Donate to this project\n```BTC : 1J6mpRC92aYxV9fYTJPcb5TSKqvyZ6tMem\nLTC : LWVP6tooXQ5qZdiNbDxALEHXoDrpdXcF1c```");
 		console.log("Responding to donate")
   }};
   //cleverbot command  
